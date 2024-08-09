@@ -14,6 +14,7 @@ To use the macro on your local machine download all files from the Local_Scripts
 ```
 $ wget -O https://github.com/Jack-Gregory-Bioinformatics/CoordsPlotter.git
 ```
+The macro has been written for the Olymppus IX83 microscope, feel free to edit it for your own microscope brand/model.
 
 ## Running on your local machine
 To run this pipeline on your local machine, run the ImageJ macro (CryptoClassifier.ijm) using ImageJ by selecting:
