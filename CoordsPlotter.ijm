@@ -112,7 +112,6 @@ for (i = 0; i < xCoords.length; i++) {
     
     // Print the adjusted coordinates
     // print("Image: " + imageNames[i] + " | Adjusted X: " + adjustedXCoords[i] + " | Adjusted Y: " + adjustedYCoords[i]);
-
 }
 
 // Plot the coordinates
