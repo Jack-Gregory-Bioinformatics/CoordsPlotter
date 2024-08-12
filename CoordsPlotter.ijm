@@ -126,15 +126,13 @@ drawRect(padding, padding, 1024 - 2 * padding, 1024 - 2 * padding);
 setColor("red");
 
 for (i = 0; i < adjustedXCoords.length; i++) {
-	// Flip the Y-axis
-    flippedY = 1024 - adjustedYCoords[i];
     
     // Plot the point
-    drawOval(adjustedXCoords[i], flippedY, 5, 5);
+    drawOval(adjustedXCoords[i], adjustedYCoords[i], 5, 5);
 
     // Calculate the string position, adjusting to avoid it going off the edge
     textX = adjustedXCoords[i] + 6;
-    textY = flippedY;
+    textY = adjustedYCoords[i];
     
     // Adjust if the text would go off the right edge
     if (textX + 15 > 1024) {  // Assuming the text width is around 100 pixels
